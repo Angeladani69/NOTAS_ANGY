@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         txt6 = findViewById(R.id.txtValor6);
         txt7 = findViewById(R.id.txtValor7);
         txtC = findViewById(R.id.txtValor8);
+
+        //comentario
     }
 
     public void calcularNota(View v){
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         if(valor7 >= 7){
             txtC.setText("Aprobado");
         } else {
-            txtC.setText("Reprobado");
+            txtC.setText("Reprobo");
         }
 
     }
